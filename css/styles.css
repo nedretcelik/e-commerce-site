@@ -1,0 +1,21 @@
+body {
+  background-color: #fff;
+}
+
+.navbar-bg {
+  background-color: #0046be !important;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.login-space {
+  margin-top: 6rem;
+}
+
+.btn.navbar-bg {
+  color: white;
+  text-align: center;
+}
