@@ -15,7 +15,15 @@ body {
   margin-top: 6rem;
 }
 
+.reg-space {
+  margin-top: 3rem;
+}
+
 .btn.navbar-bg {
   color: white;
   text-align: center;
+}
+
+.google-border {
+  border: 0.1px solid black !important;
 }
