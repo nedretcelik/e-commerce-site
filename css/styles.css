@@ -1,5 +1,7 @@
+
+
 body {
-  background-color: #fff;
+  background-color: #f0f2f4;
 }
 
 .navbar-bg {
@@ -26,4 +28,9 @@ body {
 
 .google-border {
   border: 0.1px solid black !important;
+}
+
+.search-bar {
+  border: 1px solid yellow;
+  
 }
