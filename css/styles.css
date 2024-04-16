@@ -1,0 +1,51 @@
+
+
+body {
+  background-color: #f0f2f4;
+}
+
+.navbar-bg {
+  background-color: #0046be !important;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.login-space {
+  margin-top: 6rem;
+}
+
+.reg-space {
+  margin-top: 3rem;
+}
+
+.btn.navbar-bg {
+  color: white;
+  text-align: center;
+}
+
+.google-border {
+  border: 0.1px solid black !important;
+}
+
+.search-bar {
+  border: 1px solid yellow;
+  
+}
+
+.product-space {
+  margin-top: 8rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.product-list {
+  font-weight: 200;
+  padding-left: 0;
+}
+
+.btn-color{
+  background-color: #ffe000;
+}
