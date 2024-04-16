@@ -34,3 +34,18 @@ body {
   border: 1px solid yellow;
   
 }
+
+.product-space {
+  margin-top: 8rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.product-list {
+  font-weight: 200;
+  padding-left: 0;
+}
+
+.btn-color{
+  background-color: #ffe000;
+}
