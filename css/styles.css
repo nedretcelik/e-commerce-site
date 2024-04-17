@@ -53,3 +53,7 @@ body, .bg-card {
 .bg-white {
   background-color: white;
 }
+
+.star {
+  color: yellow;
+}
