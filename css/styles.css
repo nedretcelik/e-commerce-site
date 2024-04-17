@@ -57,3 +57,19 @@ body, .bg-card {
 .star {
   color: rgb(239, 179, 14);
 }
+
+.color-h>h6,.color-h>h3, .color-h>p{
+  color: white;
+}
+
+.color-h>h2 {
+  color: #fff200;
+}
+.p-size>p {
+  font-size: .7rem;
+  color: white;
+}
+
+.bg-btn{
+  background-color:  #ffe000;
+}
