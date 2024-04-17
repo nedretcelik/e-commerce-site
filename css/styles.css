@@ -4,7 +4,7 @@ body, .bg-card {
   background-color: #f0f2f4;
 }
 
-.navbar-bg {
+.navbar-bg, .btn-bg {
   background-color: #0046be !important;
 }
 
@@ -55,5 +55,5 @@ body, .bg-card {
 }
 
 .star {
-  color: yellow;
+  color: rgb(239, 179, 14);
 }
