@@ -15,40 +15,146 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-light bg-light navbar-bg">
+      <div class="px-3 py-2 text-bg-dark border-bottom navbar-bg">
         <div class="container">
-          <a class="navbar-brand" href="./index.html">
-            <img src="./images/logoipsum-332.svg" alt="" />
-          </a>
-          <a href="./index.html" class="navbar-link">Return to Homepage</a>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="container d-flex justify-content-center login-space">
-        <div class="card" style="width: 30rem">
-          <div class="card-body">
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" />
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-              </div>
-              <button type="submit" class="btn navbar-bg">Sign In</button>
-            </form>
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <img src="./images/logoipsum-332.svg" alt="" />
+            </a>
+
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
+                  Orders
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#people-circle"></use>
+                  </svg>
+                  Account
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#people-circle"></use>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-cart3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+      <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search" />
+          </form>
+
+          <div class="text-end">
+            <a href="./login.html"><button type="button" class="btn btn-light text-dark me-2">Login</button></a>
+            <a href="./registration.html"><button type="button" class="btn btn-primary navbar-bg">Sign-up</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container marketing">
+        <div class="row featurette">
+          <div class="col-md-6 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Don’t miss out on exclusive deals.</h2>
+            <p class="lead">
+              Unlock even more exclusive member deals when you become a My Byte Bay Plus™ or My Byte Bay Total™ member.
+            </p>
+            <br />
+            <a href=""><span class="text-body-secondary">Discover more exclusive deals for member</span></a> <br />
+            <hr />
+            <h6 style="font-weight: bold">Today's top picks</h6>
+
+            <div class="card p-3 bg-card bg-white">
+              <div class="row">
+                <div class="col">
+                  <img src="./images/6525422_sd.jpg" alt="" width="100" /><br /><br />
+                  <a href="">Apple pre-owned iphone 13</a>
+                </div>
+                <div class="col">
+                  <img src="./images/6525422_sd.jpg" alt="" width="100" /><br /><br />
+                  <a href="">Apple pre-owned iphone 14</a>
+                </div>
+                <div class="col">
+                  <img src="./images/6525422_sd.jpg" alt="" width="100" /><br /><br />
+                  <a href="">Apple pre-owned iphone 12</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 order-md-1">
+            <img
+              src="./images/GL-89761-ghp-3daysale-031724-42758ec1-89f7-442a-85dc-32585cc37104.jpg"
+              alt=""
+              width="500"
+              height="500"
+            />
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+
+        <div class="container" id="custom-cards">
+          <h2 class="pb-2 border-bottom">New arrivals</h2>
+          <div class="card p-3 bg-card bg-white">
+            <div class="row">
+                <ul class="d-flex justify-content-around" style="list-style: none;">
+                    <li>
+                        <img src="./images/airpods.jpeg" alt="" width="150"><br><br>
+                        <a href="">Apple - AirPods Max</a>
+
+                    </li>
+                    <li>
+                        <img src="./images/airpods.jpeg" alt="" width="150"><br><br>
+                        <a href="">Apple - AirPods Max</a>
+                    </li>
+                    <li>
+                        <img src="./images/airpods.jpeg" alt="" width="150"><br><br>
+                        <a href="">Apple - AirPods Max</a>
+                    </li>
+                    <li>
+                        <img src="./images/airpods.jpeg" alt="" width="150"><br><br>
+                        <a href="">Apple - AirPods Max</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
     </main>
-    <footer>
-    </footer>
+    <footer></footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
