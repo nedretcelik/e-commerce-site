@@ -1,6 +1,6 @@
 
 
-body {
+body, .bg-card {
   background-color: #f0f2f4;
 }
 
@@ -48,4 +48,8 @@ body {
 
 .btn-color{
   background-color: #ffe000;
+}
+
+.bg-white {
+  background-color: white;
 }
