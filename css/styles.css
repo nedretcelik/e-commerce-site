@@ -1,4 +1,6 @@
-
+* {
+  font-family: sans-serif;
+}
 
 body, .bg-card {
   background-color: white;
@@ -81,4 +83,24 @@ body, .bg-card {
 .bold-bg {
   background-color: red;
   color: white;
+}
+
+.footer-style ul, .footer-style a{
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-style a:hover {
+  text-decoration: underline;
+}
+.footer-style-last p{
+  font-weight: 200;
+  font-family: sans-serif;
+  
+}
+
+footer a {
+  color: #0046be;
+  font-family: sans-serif !important;
 }
