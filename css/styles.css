@@ -104,3 +104,7 @@ footer a {
   color: #0046be;
   font-family: sans-serif !important;
 }
+
+.deals img {
+  border: none;
+}
