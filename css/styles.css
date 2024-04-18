@@ -137,3 +137,37 @@ footer a {
 .price-c a{
   font-size: 12px;
 }
+.price-c p{
+  font-size: 12px;
+}
+
+.star {
+  color: #ffe000;
+}
+ 
+.btn-c {
+  color: black;
+  font-weight: bold;
+}
+
+.btn-c:hover{
+  background-color: #fff200;
+}
+
+.li-color a{
+  color: #0046be;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.adds a{
+  font-size: 10px;
+  font-weight: 200;
+
+}
+.adds, .adds>col {
+  background-color: #f1f8ff;
+  text-align: center;
+  padding: 10px;
+}
