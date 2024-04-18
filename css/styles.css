@@ -108,3 +108,32 @@ footer a {
 .deals img {
   border: none;
 }
+
+.align-row {
+  text-align: center;
+}
+
+.spn-box {
+  background-color:  #0046be; 
+  color: white;
+}
+
+.product-p {
+  font-size: 12px; font-weight: bold;
+}
+
+.product-p span {
+  font-weight: 200;
+}
+
+.price-c h2{
+  font-weight: bold;
+}
+
+.price-c h2{
+  text-align:start
+}
+
+.price-c a{
+  font-size: 12px;
+}
