@@ -73,3 +73,12 @@ body, .bg-card {
 .bg-btn{
   background-color:  #ffe000;
 }
+
+.bold-t>h6 {
+  font-weight: bold;
+}
+
+.bold-bg {
+  background-color: red;
+  color: white;
+}
