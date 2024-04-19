@@ -171,3 +171,18 @@ footer a {
   text-align: center;
   padding: 10px;
 }
+.bold-c{
+  font-weight: bold;
+}
+
+.btn-new {
+  background-color: black;
+  color: white;
+
+}
+
+.btn-new:hover{
+  background-color: black;
+  color: white;
+}
+
