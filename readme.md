@@ -5,27 +5,27 @@
 
 ##### Home Page
 
-![alt text](home-page-ss.html.png)
+![alt text](./images/home-page-ss.html.png)
 
 ##### Products Page
 
-![alt text](products-page-ss.png)
+![alt text](./images/products-page-ss.png)
 
 ##### Product Item Page
 
-![alt text](item-page-ss.html.png)
+![alt text](./images/item-page-ss.html.png)
 
 
 ##### Cart Page
 
-![alt text](cart-page-ss.html.png)
+![alt text](./images/cart-page-ss.html.png)
 
 
 ##### Checkout Page
 
-![alt text](127.0.0.1_5501_checkout.html.png)
+![alt text](./images/127.0.0.1_5501_checkout.html.png)
 
 ##### Login Page
 
-![alt text](login-page-ss.html.png)
+![alt text](./images/login-page-ss.html.png)
 
